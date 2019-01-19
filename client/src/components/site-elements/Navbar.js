@@ -1,0 +1,47 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Radium from 'radium';
+import Color from 'color';
+
+//Components
+import Main from './Main';
+import Works from '../content/Works';
+import Testing from '../content/Testing';
+import Resume from '../content/Resume';
+import Contact from '../forms/Contact';
+import ContactSubmit from '../forms/ContactSubmit';
+
+const styles = {
+    base: {
+        color: '#000000',
+        ':hover': {
+            color: '#000000'
+        }
+    }
+};
+
+export default class Navbar extends React.Component {
+    render() {
+        return (
+            <Router>
+                <div className='row row-offcanvas row-offcanvas-left'>
+                    <ul className='col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 mr-auto nav navbar-nav sidebar-offcanvas text-center left-col' id='navList' alt='Navigation Listing'>
+                        <li><Link className='nav-link' style={styles.base} name='aboutMeLink' to='/'> ABOUT ME </Link></ li>
+                        <li><Link className='nav-link' style={styles.base} name='worksLink' to='/works'> WORKS </Link></li>
+                        <li><Link className='nav-link' style={styles.base} name='testingLink' to='/testing'> QA TESTING </Link></li>
+                        <li><Link className='nav-link' style={styles.base} name='resumeLink' to='/resume'> RESUME </Link></li>
+                        <li><Link className='nav-link' style={styles.base} name='contactLink' to='/contact'> CONTACT ME </Link></li>
+                    </ ul>
+                    <div className='col-8 col-sm-8 col-md-10 col-lg-10 col-xl-10 ml-auto mr-auto right-col' id='contentTray' alt='Main Content'>
+                        <Route exact path='/' component={ Main } />
+                        <Route path='/works' component={ Works } />
+                        <Route path='/testing' component={ Testing } />
+                        <Route path='/resume' component={ Resume } />
+                        <Route path='/contact' component={ Contact } />
+                        <Route path='/contact-submit' component={ ContactSubmit } />
+                    </ div>
+                </div>
+            </Router>
+        );
+    }
+}
