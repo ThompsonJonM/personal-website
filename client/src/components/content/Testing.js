@@ -6,6 +6,7 @@ import Color from 'color';
 import nytimes from '../../assets/img/nytimes.png';
 import scraper from '../../assets/img/scraper.png'
 import qaDemos from '../../assets/img/qaDemos.png';
+import clojureTesting from '../../assets/img/clojureTesting.png';
 import seleniumDemos from '../../assets/img/seleniumDemos.png';
 
 const styles = {
@@ -29,6 +30,25 @@ export default class Testing extends React.Component {
 
                 <br/>
                 <br/>
+
+                <div className="row">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                        <div className='row'>
+                            <div className="col-12 imageBlock">
+                                <Link to="https://github.com/ThompsonJonM/clojure-testing" target='_blank' className="project" name='clojureTestingLink'>
+                                    <div className='row'>
+                                        <img src={clojureTesting} alt="clojure testing display" className="img-fluid projectImg" name='clojureTestingImg'/>
+                                        <h3 className="col-12 text-center imgDescriptWide" name='clojureTestingText'>
+                                            <br/>
+                                            <br/>
+                                            <b>A testing repository using Clojure, Kaocha, Kaocha-Cucumber, and Etaoin.</b>
+                                        </h3>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="row">
                     <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
