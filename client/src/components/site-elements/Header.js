@@ -20,7 +20,7 @@ export default class Header extends React.Component {
         return (
             <div className="col-lg-12 text-center" id='headerText' name='headerText'>
                 <h1 name='devName'><b>Jonathan Thompson</b></h1>
-                <h6 name='devTitleAndLoc'><b>Web Developer | Chicago, IL</b></h6>
+                <h6 name='devTitleAndLoc'><b>Software Engineer in Test | Chicago, IL</b></h6>
                 <h7 name='devSlogan'><b>Testing and styling are what I do best</b></h7>
 
                 <br/>
