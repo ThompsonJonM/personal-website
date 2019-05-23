@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Radium from 'radium';
 import Color from 'color';
 
-import profilePic from '../../assets/img/selfimage.jpg';
+import profilePic from '../../assets/img/selfimage.png';
 
 const styles = {
     base: {
