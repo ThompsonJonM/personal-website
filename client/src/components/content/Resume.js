@@ -64,10 +64,11 @@ export default class Resume extends React.Component {
                             </span>
 
                             <p className='col-12 resumeEntryText'>
-                                Oversees quality section for in-house software products. Introduced
-                                Clojure-based automation framework utilizing Clojure, Kaocha test runner,
-                                and Etaoin webdriver. Utilizes testing tools to build, maintain, and execute
-                                test strategies for in-house software products. 
+                                Oversees quality section for Pepper software products. Introduced 
+                                automation testing framework using Cypress.io and Javascript. Collaborates with
+                                Pepper development team and leadership on defining quality standards, processes,
+                                and practices for the Pepper suite of products. Utilizes testing tools to build,
+                                maintain, and execute test strategies for Pepper product suite. 
                             </p>
                         </div>
 
