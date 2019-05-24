@@ -35,8 +35,7 @@ export default class Main extends React.Component {
                             <b>I am a certified full-stack web developer after having graduated from <Link to='https://codingbootcamp.northwestern.edu/' target='_blank' style={styles.base}>Northwestern University</Link>. 
                             In addition, I hold a Bachelors of Arts with a major in History and Anthropology
                             from <Link to='https://www2.naz.edu/academics/history-degree-program/' target='_blank' style={styles.base} className='nazLink'>Nazareth College of Rochester</Link>. 
-                            Originally from New York, I have called Chicago my home for the last 
-                            four years.</b>
+                            Originally from New York, I spent four years in Chicago before relocating to Cary.</b>
                         </p>
 
                         <p>

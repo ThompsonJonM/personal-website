@@ -249,7 +249,7 @@ export default class Resume extends React.Component {
                                         <li>Selenium Webdriver</li>
                                         <li>Watir Webdriver</li>
                                         <li>Etaoin Webdriver</li>
-                                        <li>Node/NPM</li>
+                                        <li>Cypress.io</li>
                                     </ul>
                                 </b>
                             </div>
