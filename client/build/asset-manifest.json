@@ -1,9 +1,10 @@
 {
   "main.css": "static/css/main.9950ec72.css",
   "main.css.map": "static/css/main.9950ec72.css.map",
-  "main.js": "static/js/main.e2eeaec0.js",
-  "main.js.map": "static/js/main.e2eeaec0.js.map",
+  "main.js": "static/js/main.bbef8691.js",
+  "main.js.map": "static/js/main.bbef8691.js.map",
   "static\\media\\clojureTesting.png": "static/media/clojureTesting.eeaa8e81.png",
+  "static\\media\\cypressCucumberTesting.png": "static/media/cypressCucumberTesting.d24c98bd.png",
   "static\\media\\cypressTesting.png": "static/media/cypressTesting.6371b72e.png",
   "static\\media\\databaseImage.png": "static/media/databaseImage.9eaa52d4.png",
   "static\\media\\giphyImage.png": "static/media/giphyImage.cdea938a.png",

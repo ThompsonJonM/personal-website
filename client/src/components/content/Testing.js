@@ -4,6 +4,7 @@ import Radium from 'radium';
 import Color from 'color';
 
 import clojureTesting from '../../assets/img/clojureTesting.png';
+import cypressCucumberTesting from '../../assets/img/cypressCucumberTesting.png'
 import cypressTesting from '../../assets/img/cypressTesting.png';
 import nytimes from '../../assets/img/nytimes.png';
 import qaDemos from '../../assets/img/qaDemos.png';
@@ -26,7 +27,7 @@ export default class Testing extends React.Component {
             <div className="col-12 ml-sm-auto col-md-9 ml-md-auto ml-lg-auto mr-auto" id="mainBodySection">
                 <div className='row'>
                     <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
-                        <h5 className='text-center'><strong>A sampling of my QA projects</strong></h5>
+                        <h5 className='text-center'><strong>A sampling of my QA projects and repositories</strong></h5>
                     </div>
                 </div>
 
@@ -34,7 +35,26 @@ export default class Testing extends React.Component {
                 <br/>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                        <div className='row'>
+                            <div className="col-12 imageBlock">
+                                <Link to="https://github.com/ThompsonJonM/magnolia-acuminata" target='_blank' className="project" name='cypressCucumberTestingLink'>
+                                    <div className='row'>
+                                        <img src={cypressCucumberTesting} alt="cypress cucumber testing display" className="img-fluid projectImg" name='cypressCucumberTestingImg'/>
+                                        <h3 className="col-12 text-center imgDescriptWide" name='cypressCucumberTestingText'>
+                                            <br/>
+                                            <br/>
+                                            <b>An automation testing repository using Cypress.io, Cypress-Cucumber-Preprocessor, and ES6.</b>
+                                        </h3>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/dendrology" target='_blank' className="project" name='cypressTestingLink'>
@@ -53,7 +73,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/ruby-testing" target='_blank' className="project" name='rubyTestingLink'>
@@ -72,7 +92,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/clojure-testing" target='_blank' className="project" name='clojureTestingLink'>
@@ -91,7 +111,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos" target='_blank' className="project" name='qaDemosLink'>
@@ -110,7 +130,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos/tree/master/seleniumTests" target='_blank' className="project" name='seleniumDemosLink'>
@@ -129,7 +149,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/nytimes-react-app/tree/master/client/src/test" target='_blank' className="project" name='nytimesDemoLink'>
@@ -148,7 +168,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/news-scraper/tree/master/testing" target='_blank' className="project" name='scraperDemoLink'>
