@@ -34,7 +34,7 @@ export default class Testing extends React.Component {
                 <br/>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/dendrology" target='_blank' className="project" name='cypressTestingLink'>
@@ -53,7 +53,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/ruby-testing" target='_blank' className="project" name='rubyTestingLink'>
@@ -72,7 +72,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/clojure-testing" target='_blank' className="project" name='clojureTestingLink'>
@@ -91,7 +91,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos" target='_blank' className="project" name='qaDemosLink'>
@@ -110,7 +110,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos/tree/master/seleniumTests" target='_blank' className="project" name='seleniumDemosLink'>
@@ -129,7 +129,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/nytimes-react-app/tree/master/client/src/test" target='_blank' className="project" name='nytimesDemoLink'>
@@ -148,7 +148,7 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-10 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
                             <div className="col-12 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/news-scraper/tree/master/testing" target='_blank' className="project" name='scraperDemoLink'>
