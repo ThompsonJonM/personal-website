@@ -35,9 +35,9 @@ export default class Testing extends React.Component {
                 <br/>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/magnolia-acuminata" target='_blank' className="project" name='cypressCucumberTestingLink'>
                                     <div className='row'>
                                         <img src={cypressCucumberTesting} alt="cypress cucumber testing display" className="img-fluid projectImg" name='cypressCucumberTestingImg'/>
@@ -54,9 +54,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/dendrology" target='_blank' className="project" name='cypressTestingLink'>
                                     <div className='row'>
                                         <img src={cypressTesting} alt="cypress testing display" className="img-fluid projectImg" name='cypressTestingImg'/>
@@ -73,9 +73,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/ruby-testing" target='_blank' className="project" name='rubyTestingLink'>
                                     <div className='row'>
                                         <img src={rubyTesting} alt="ruby testing display" className="img-fluid projectImg" name='rubyTestingImg'/>
@@ -92,9 +92,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/clojure-testing" target='_blank' className="project" name='clojureTestingLink'>
                                     <div className='row'>
                                         <img src={clojureTesting} alt="clojure testing display" className="img-fluid projectImg" name='clojureTestingImg'/>
@@ -111,9 +111,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos" target='_blank' className="project" name='qaDemosLink'>
                                     <div className='row'>
                                         <img src={qaDemos} alt="qa demos testing display" className="img-fluid projectImg" name='qaDemosImg'/>
@@ -130,9 +130,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/qa-test-demos/tree/master/seleniumTests" target='_blank' className="project" name='seleniumDemosLink'>
                                     <div className='row'>
                                         <img src={seleniumDemos} alt="selenium demos testing display" className="img-fluid projectImg" name='seleniumDemosImg'/>
@@ -149,9 +149,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/nytimes-react-app/tree/master/client/src/test" target='_blank' className="project" name='nytimesDemoLink'>
                                     <div className='row'>
                                         <img src={nytimes} alt="nytimes testing display" className="img-fluid projectImg" name='nytimesDemoImg'/>
@@ -168,9 +168,9 @@ export default class Testing extends React.Component {
                 </div>
 
                 <div className="row">
-                    <div className="col-10 col-offset-1 ml-sm-auto ml-md-auto ml-lg-auto">
+                    <div className="col-12 ml-sm-auto ml-md-auto ml-lg-auto">
                         <div className='row'>
-                            <div className="col-12 imageBlock">
+                            <div className="col-xs-10 col-xs-offset-1 imageBlock">
                                 <Link to="https://github.com/ThompsonJonM/news-scraper/tree/master/testing" target='_blank' className="project" name='scraperDemoLink'>
                                     <div className='row'>
                                         <img src={scraper} alt="scraper testing display" className="img-fluid projectImg" name='scraperDemoImg'/>
