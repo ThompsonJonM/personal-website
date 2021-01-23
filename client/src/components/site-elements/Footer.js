@@ -18,6 +18,18 @@ export default class Footer extends React.Component {
       <div className="col-8 ml-auto mr-auto" id="footer">
         <div className="row text-center" id="footerRow">
           <div className="col-12">
+            <Router>
+              <h5>
+                <Link
+                  style={styles.base}
+                  to="https://github.com/ThompsonJonM"
+                  target="_blank"
+                >
+                  {" "}
+                  © 2021 Jonathan Thompson{" "}
+                </Link>
+              </h5>
+            </Router>
           </div>
         </div>
       </div>
