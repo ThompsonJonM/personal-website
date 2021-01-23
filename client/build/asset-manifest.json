@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.9950ec72.css",
   "main.css.map": "static/css/main.9950ec72.css.map",
-  "main.js": "static/js/main.3c3c7429.js",
-  "main.js.map": "static/js/main.3c3c7429.js.map",
+  "main.js": "static/js/main.e6b4dd78.js",
+  "main.js.map": "static/js/main.e6b4dd78.js.map",
   "static\\media\\clojureTesting.png": "static/media/clojureTesting.eeaa8e81.png",
   "static\\media\\cypressCucumberTesting.png": "static/media/cypressCucumberTesting.d24c98bd.png",
   "static\\media\\cypressTesting.png": "static/media/cypressTesting.6371b72e.png",
@@ -17,6 +17,6 @@
   "static\\media\\rubyTesting.png": "static/media/rubyTesting.8277389d.png",
   "static\\media\\scraper.png": "static/media/scraper.31e04284.png",
   "static\\media\\seleniumDemos.png": "static/media/seleniumDemos.6ef02d80.png",
-  "static\\media\\selfimage.png": "static/media/selfimage.54fff098.png",
+  "static\\media\\selfImage.png": "static/media/selfImage.54fff098.png",
   "static\\media\\trainSchedImage.png": "static/media/trainSchedImage.b2c482dc.png"
 }
